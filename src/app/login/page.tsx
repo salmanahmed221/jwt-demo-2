@@ -20,7 +20,7 @@ export default function LoginPage() {
         if (accessToken) {
             // const nextUrl = searchParams.get('next')
             // @see: https://github.com/vercel/next.js/discussions/44149
-            router.push("https://jwt-demo-2.vercel.app");
+            router.push("/");
         } else {
             // Make your shiny error handling with a great user experience
             alert("Login failed due to incorrect email or password");
