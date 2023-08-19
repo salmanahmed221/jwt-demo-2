@@ -17,7 +17,7 @@ export async function middleware(request: NextRequest) {
     }
 
     if (!jwttokenincookies) {
-      return NextResponse.redirect('http://localhost:3000/login');
+      return NextResponse.redirect('https://jwt-demo-2.vercel.app//login');
     }
 
     const verifyToken = await jwtVerify(
