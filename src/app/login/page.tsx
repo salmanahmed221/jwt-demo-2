@@ -55,11 +55,20 @@ export default function LoginPage() {
                 </label>
                 <button
                     type="submit"
-                    className="border bg-blue-300 px-3 py-2 rounded-lg hover:bg-black hover:text-white ease-in duration-300 "
+                    className="border bg-blue-700 px-3 py-2 rounded-lg hover:bg-black hover:text-white ease-in duration-300 "
                 >
                     Login
                 </button>
             </form>
+            <div>
+                <h1 className="text-2xl font-bold">Testing Data</h1>
+                <div className="mt-2">
+                    Username: admin
+                </div>
+                <div>
+                    Password: admin
+                </div>
+            </div>
         </div>
     );
 }
